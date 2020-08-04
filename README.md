@@ -1,2 +1,1 @@
-# CtCI-
-My takeaways from CtCI 
+# Coding Interview Prep
