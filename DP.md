@@ -1,3 +1,14 @@
+Decision Making
+The general problem statement for this pattern is forgiven situation decide whether to use or not to use the current state. So, the problem requires you to make a decision at a current state.
+
+Statement
+Given a set of values find an answer with an option to choose or ignore the current value.
+
+Approach
+If you decide to choose the current value use the previous result where the value was ignored; vice-versa, if you decide to ignore the current value use previous result where value was used.
+
+
+
 ### Section 1: DP Validation 
 Our first question should be: **Is Dynamic Programming (DP) suitable for this question?**
 
@@ -77,3 +88,5 @@ With all the above info, it's easy to construct a recursive solution as shown be
 * This problem took me a while to understand, and I  wish to share the thought process for the first few very important parts 
 
 * Thank you for reading, have a nice day!
+
+
